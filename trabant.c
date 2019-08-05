@@ -1,9 +1,8 @@
 /**
  * NOTE:
  * - malloc aborts in Emscripten-space, so forget checking for null
- * - skein-1024 is deprecated, some don't trust it
- * - LEGACY skein is extremely LEGACY, i.e. should never be used unless 
- *   you need to decrypt really old PKC-internal stuff
+ * - LEGACY_skein* is LEGACY, i.e. should never be used unless 
+ *   you need to decrypt really old PKC-internal stuff (from 2014!)
  **/
 
 #include <string.h>
